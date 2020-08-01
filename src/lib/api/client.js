@@ -2,6 +2,8 @@ import axios from 'axios';
 
 const client = axios.create();
 
+//client.defaults.baseURL = 'http://ec2-15-164-224-178.ap-northeast-2.compute.amazonaws.com:8080' 
+
 /*
   글로벌 설정 예시:
   

@@ -1,0 +1,8 @@
+{
+     "tag": "test",
+     "date": "2020-07-31",
+     "uploads": {
+         "user_A": 3,
+         "user_B": 2
+    }
+}
