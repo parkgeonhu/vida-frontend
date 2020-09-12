@@ -10,7 +10,9 @@ export const createSearch = ({ tags }) =>
 // }
 
 
-export const readSearch = tag => client.get(`/api/test?tag=${tag}`);
+// export const readSearch = tag => client.get(`/api/test?tag=${tag}`);
+
+export const readSearch = tag => client.get(`/api/search`);
 
 // export const listPosts = ({ page, username, tag }) => {
 //   const queryString = qs.stringify({
